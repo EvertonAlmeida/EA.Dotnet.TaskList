@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{DFCBAB10-D969-4B57-96AF-3E54ECA67FD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{6752D2AE-812F-4843-970A-EF38CB16937C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{85AEEAD9-8CF1-41ED-8EE9-A7E3E38B5904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{F808634A-F485-4FB5-9077-B9A9F9A8FB4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{1A429012-FA13-4CDD-A0BF-CD82F4F68B36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{3632AD5C-AD35-4085-8188-4D8ACE6EE4C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{06236F1C-F233-4927-AE77-493A92D75DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Dotnet.TaskList.Domain", "EA.Dotnet.TaskList.Domain\EA.Dotnet.TaskList.Domain.csproj", "{30C8EE30-B6AE-43C2-98B2-AF4E0F6209F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Dotnet.TaskList.Infra.Data", "EA.Dotnet.TaskList.Infra.Data\EA.Dotnet.TaskList.Infra.Data.csproj", "{2B6CECBE-0876-4D1B-AAD9-E2853BCE708A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Dotnet.TaskList.Application", "EA.Dotnet.TaskList.Application\EA.Dotnet.TaskList.Application.csproj", "{17D7D2EE-6D46-44D3-8B19-992526976383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Dotnet.TaskList.Infra.CrossCutting.IoC", "EA.Dotnet.TaskList.Infra.CrossCutting.IoC\EA.Dotnet.TaskList.Infra.CrossCutting.IoC.csproj", "{A1BA88C0-79D1-4784-959B-69CCEDEA6C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Dotnet.TaskList.Services.WebAPI", "EA.Dotnet.TaskList.Services.WebAPI\EA.Dotnet.TaskList.Services.WebAPI.csproj", "{B0E0E677-7E48-4FAD-BC0D-C0A168F33FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.Dotnet.TaskList.Presentation.MVC", "EA.Dotnet.TaskList.Presentation.MVC\EA.Dotnet.TaskList.Presentation.MVC.csproj", "{2946C8D5-5E7D-47CC-BC14-FCDA6A019845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C8EE30-B6AE-43C2-98B2-AF4E0F6209F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C8EE30-B6AE-43C2-98B2-AF4E0F6209F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C8EE30-B6AE-43C2-98B2-AF4E0F6209F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C8EE30-B6AE-43C2-98B2-AF4E0F6209F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6CECBE-0876-4D1B-AAD9-E2853BCE708A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6CECBE-0876-4D1B-AAD9-E2853BCE708A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6CECBE-0876-4D1B-AAD9-E2853BCE708A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6CECBE-0876-4D1B-AAD9-E2853BCE708A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D7D2EE-6D46-44D3-8B19-992526976383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D7D2EE-6D46-44D3-8B19-992526976383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D7D2EE-6D46-44D3-8B19-992526976383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D7D2EE-6D46-44D3-8B19-992526976383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BA88C0-79D1-4784-959B-69CCEDEA6C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BA88C0-79D1-4784-959B-69CCEDEA6C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BA88C0-79D1-4784-959B-69CCEDEA6C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BA88C0-79D1-4784-959B-69CCEDEA6C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E0E677-7E48-4FAD-BC0D-C0A168F33FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E0E677-7E48-4FAD-BC0D-C0A168F33FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E0E677-7E48-4FAD-BC0D-C0A168F33FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E0E677-7E48-4FAD-BC0D-C0A168F33FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2946C8D5-5E7D-47CC-BC14-FCDA6A019845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2946C8D5-5E7D-47CC-BC14-FCDA6A019845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2946C8D5-5E7D-47CC-BC14-FCDA6A019845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2946C8D5-5E7D-47CC-BC14-FCDA6A019845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3632AD5C-AD35-4085-8188-4D8ACE6EE4C0} = {1A429012-FA13-4CDD-A0BF-CD82F4F68B36}
+		{06236F1C-F233-4927-AE77-493A92D75DAC} = {1A429012-FA13-4CDD-A0BF-CD82F4F68B36}
+		{30C8EE30-B6AE-43C2-98B2-AF4E0F6209F9} = {F808634A-F485-4FB5-9077-B9A9F9A8FB4B}
+		{2B6CECBE-0876-4D1B-AAD9-E2853BCE708A} = {3632AD5C-AD35-4085-8188-4D8ACE6EE4C0}
+		{17D7D2EE-6D46-44D3-8B19-992526976383} = {85AEEAD9-8CF1-41ED-8EE9-A7E3E38B5904}
+		{A1BA88C0-79D1-4784-959B-69CCEDEA6C20} = {06236F1C-F233-4927-AE77-493A92D75DAC}
+		{B0E0E677-7E48-4FAD-BC0D-C0A168F33FCD} = {6752D2AE-812F-4843-970A-EF38CB16937C}
+		{2946C8D5-5E7D-47CC-BC14-FCDA6A019845} = {DFCBAB10-D969-4B57-96AF-3E54ECA67FD9}
+	EndGlobalSection
+EndGlobal
